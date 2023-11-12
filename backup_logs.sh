@@ -1,5 +1,5 @@
 #!/bin/bash
-#Security: This script must run as root. Don't forget to copy this script to the root direktory!
+#Security: This script must run as root. Don't forget to copy this script to the root directory!
 
 backup_dir="/mnt/backup/logs_backup"
 log_dir="/var/log/my_script_logs"
