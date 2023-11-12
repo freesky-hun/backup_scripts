@@ -1,5 +1,5 @@
 #!/bin/bash
-#Security: This script must run as root. Don't forget to copy this script to the root folder!
+#Security: This script must run as root. Don't forget to copy this script to the root direktory!
 
 backup_dir="/mnt/backup"
 log_dir="/mnt/MY_MNT/my_script_logs"
@@ -36,5 +36,5 @@ if [ "$(ls -A $backup_dir/DIREKTORY_backup_cash)" ]; then
     echo "$timestamp - Error: DIREKTORY_backup_cash directory is not empty after deletion." >> "$error_log"
 fi
 
-# 7 Log that the backup_DIREKTORY_folder completed successfully
-echo "$timestamp - backup_DIREKTORY_folder completed successfully." >> "$success_log"
+# 7 Log that the backup_DIREKTORY_direktory completed successfully
+echo "$timestamp - backup_DIREKTORY_direktory completed successfully." >> "$success_log"
